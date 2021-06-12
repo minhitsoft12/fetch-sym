@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class FetchController extends AbstractController
 {
     /**
-     * @Route("/{reactRouting}", name="home", defaults={"reactRouting": null})
+     * @Route("/fetch/{reactRouting}", name="home", defaults={"reactRouting": null})
      */
     public function index()
     {
